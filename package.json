@@ -1,0 +1,21 @@
+{
+  "name": "cyp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "spec": "npx cypress run --record --key e0f20bc5-22bf-4840-b935-bf9a577be716 'cypress/e2e/spec.cy.js' --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nav1380/roffemaria-cypress-exam"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.2",
+    "faker": "^5.5.3"
+  }
+}
