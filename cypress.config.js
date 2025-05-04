@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 require("dotenv").config();
 
 module.exports = defineConfig({
-  projectId: "yteuhi",
+  projectId: "7ew6c5",
   experimentalStudio: true,
   retries: 3,
   // testIsolation: false,
